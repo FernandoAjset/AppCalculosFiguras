@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-image: linear-gradient(
+    to right top,
+    #00b4d8,
+    #49bedf,
+    #6bc9e5,
+    #87d3ec,
+    #a0def3,
+    #a0def3,
+    #a0def3,
+    #a0def3,
+    #87d3ec,
+    #6bc9e5,
+    #49bedf,
+    #00b4d8
+  );
+  font-family: "Red Hat Display", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 12px rgb(2, 62, 138);
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  color: #03045E;
+}
+
+.titulo {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo h1,
+.titulo p {
+  text-align: center;
+}
+
+.menu {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  margin-top: calc(10vh + 20px);
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cuadrado,
+.triangulo,
+.circulo {
+  position: relative;
+  width: 80%;
+  height: auto;
+  padding: 10px 0 10px 0;
+  margin-bottom: 20px;
+  border: 3px solid #0077b6;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.cuadrado form,
+.triangulo form,
+.circulo form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cuadrado h2,
+.triangulo h2,
+.circulo h2 {
+  width: 90%;
+  color: #03045E;
+}
+
+.cuadrado label,
+.triangulo label,
+.circulo label {
+  margin-top: 5px;
+  color: #023E8A;
+}
+
+.cuadrado button,
+.triangulo button,
+.circulo button {
+  margin-top: 5px;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  box-shadow: 2px 2px 12px rgb(2, 62, 138);
+}
