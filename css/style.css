@@ -33,7 +33,16 @@ header {
   position: fixed;
   z-index: 10;
   top: 0;
-  color: #03045E;
+  color: #03045e;
+  font-size: 1.4rem;
+}
+
+header h1{
+  color:#FF5400;
+}
+
+header p{
+  color:#FF6D00;
 }
 
 .titulo {
@@ -68,17 +77,33 @@ main {
 .cuadrado,
 .triangulo,
 .circulo {
+  background-image: linear-gradient(
+    to left bottom,
+    #ff5400,
+    #ff6500,
+    #ff7300,
+    #ff8100,
+    #ff8e00,
+    #ff8e00,
+    #ff8e00,
+    #ff8e00,
+    #ff8100,
+    #ff7300,
+    #ff6500,
+    #ff5400
+  );
   position: relative;
   width: 80%;
   height: auto;
   padding: 10px 0 10px 0;
   margin-bottom: 20px;
-  border: 3px solid #0077b6;
+  border: 2px solid #ff5400;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
+  box-shadow: 2px 2px 12px rgb(88, 91, 94);
 }
 
 .cuadrado form,
@@ -92,14 +117,14 @@ main {
 .triangulo h2,
 .circulo h2 {
   width: 90%;
-  color: #03045E;
+  color: #03045e;
 }
 
 .cuadrado label,
 .triangulo label,
 .circulo label {
   margin-top: 5px;
-  color: #023E8A;
+  color: #023e8a;
 }
 
 .cuadrado button,
@@ -109,7 +134,22 @@ main {
 }
 footer {
   width: 100%;
-  height: 100px;
+  height: 70px;
+  background-image: linear-gradient(
+    to right bottom,
+    #0077b6,
+    #0083be,
+    #008ec5,
+    #009acb,
+    #00a5d1,
+    #00a5d1,
+    #00a5d1,
+    #00a5d1,
+    #009acb,
+    #008ec5,
+    #0083be,
+    #0077b6
+  );
   bottom: 0;
   box-shadow: 2px 2px 12px rgb(2, 62, 138);
 }
