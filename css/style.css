@@ -15,6 +15,8 @@ html {
     #bee3db
   );
   font-family: "Red Hat Display", sans-serif;
+  /* position: relative;
+   */
 }
 
 header {
@@ -52,6 +54,7 @@ main {
   width: 100%;
   height: auto;
   margin-top: 40px;
+  margin-bottom: 40px;
   position: relative;
   z-index: 10;
   display: flex;
@@ -64,7 +67,7 @@ main {
 .triangulo,
 .circulo {
   position: relative;
-  width: 80%;
+  width: 300px;
   height: auto;
   padding: 10px 0 10px 0;
   margin-bottom: 40px;
@@ -75,6 +78,10 @@ main {
   text-align: center;
   align-items: center;
   box-shadow: 2px 2px 12px rgb(88, 91, 94);
+}
+
+.circulo {
+  margin-bottom: 0;
 }
 
 main figure {
@@ -167,7 +174,6 @@ footer {
   width: 100%;
   height: 100px;
   background-color: #bee3db;
-  bottom: 0;
   box-shadow: 2px 2px 12px rgb(2, 62, 138);
   display: flex;
   justify-content: center;

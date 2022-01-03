@@ -1,0 +1,17 @@
+@media (min-width: 600px) {
+
+  main {
+    height: 1000px;
+  }
+  .cuadrado,
+  .triangulo,
+  .circulo {
+    width: 310px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+  footer {
+    position: absolute;
+  }
+}
