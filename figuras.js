@@ -43,6 +43,11 @@ function areaCirculo(radio) {
 }
 console.groupEnd();
 
+//Funcion de redondeo
+function roundToTwo(num) {
+  return +(Math.round(num + "e+2") + "e-2");
+}
+
 //Interacción con HTML
 //Funciones para cuadrado
 function calcularPerimetroCuadrado() {
@@ -50,7 +55,7 @@ function calcularPerimetroCuadrado() {
   const value = input.value;
 
   const perimetro = perimetroCuadraro(value);
-  alert(perimetro);
+  alert("El perimetro del cuadrado es : " + roundToTwo(perimetro));
 }
 
 function calcularAreaCuadrado() {
@@ -58,7 +63,7 @@ function calcularAreaCuadrado() {
   const value = input.value;
 
   const area = areaCuadrado(value);
-  alert(area);
+  alert("El área del cuadrado es : " + roundToTwo(area));
 }
 
 //Funciones para triangulo
@@ -75,7 +80,7 @@ function calcularPerimetroTriangulo() {
   const base = Number(valueBase);
 
   const perimetro = perimetroTriangulo(lado1, lado2, base);
-  alert(perimetro);
+  alert("El perimetro del triangulo es : " + roundToTwo(perimetro));
 }
 
 function calcularAreaTriangulo() {
@@ -86,7 +91,7 @@ function calcularAreaTriangulo() {
   const altura = alturaTriangulo(valueLado1, valueBase);
 
   const area = areaTriangulo(valueBase, altura);
-  alert(area);
+  alert("El área del triangulo es : " + roundToTwo(area));
 }
 
 function calcularAlturaTriangulo() {
@@ -95,7 +100,7 @@ function calcularAlturaTriangulo() {
   const valueLado1 = inputLado1.value;
   const valueBase = inputBase.value;
   const altura = alturaTriangulo(valueLado1, valueBase);
-  alert(altura);
+  alert("La altura del triangulo es : " + roundToTwo(altura));
 }
 
 //Funciones para circulos
@@ -103,19 +108,19 @@ function calcularDiametroCirculo() {
   const inputRadio = document.getElementById("InputCirculo");
   const value = inputRadio.value;
   const diametro = diametroCirculo(value);
-  alert(diametro);
+  alert("El diametro del circulo es : " + roundToTwo(diametro));
 }
 
 function calcularCircunferenciaCirculo() {
   const inputRadio = document.getElementById("InputCirculo");
   const value = inputRadio.value;
   const circunferencia = circunferenciaCirculo(value);
-  alert(circunferencia);
+  alert("La circunferencia del circulo es : " + roundToTwo(circunferencia));
 }
 
 function calcularAreaCirculo() {
   const inputRadio = document.getElementById("InputCirculo");
   const value = inputRadio.value;
   const area = areaCirculo(value);
-  alert(area);
+  alert("El área del circulo es : " + roundToTwo(area));
 }

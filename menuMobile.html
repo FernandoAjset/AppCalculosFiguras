@@ -41,31 +41,18 @@
         margin-top: 32px;
       }
 
-      .mobile-menu ul:nth-child(1) {
+      .mobile-menu ul:nth-child(1),
+      ul:nth-child(2) {
         border-bottom: 1px solid var(--very-light-pink);
       }
-      .mobile-menu ul:nth-child(2),
-      ul:nth-child(3) {
-        margin-top: 100px;
-      }
       .mobile-menu ul li {
-        margin-bottom: 35px;
-      }
-      .mobile-menu .email {
-        /*para ser mas especificos y sobre-escribir el estilo del objeto padre*/
-        font-size: var(--sm);
-        font-weight: 300;
-        color: var(--very-light-pink);
-      }
-      .mobile-menu .sing-out {
-        /*para ser mas especificos y sobre-escribir el estilo del objeto padre*/
-        font-size: var(--sm);
-        color: var(--hospital-green);
+        margin-bottom: 20px;
       }
       .mobile-menu .volver {
         text-decoration: none;
         color: #3f37c9;
         font-weight: bold;
+        margin-top: 80px;
       }
     </style>
   </head>
@@ -73,45 +60,32 @@
     <div class="mobile-menu">
       <ul>
         <li>
-          <a href="">CATEGORIAS</a>
+          <h3>CONTACTO</h3>
         </li>
         <li>
-          <a href="">Todos</a>
+          <a href="mailto:fernando_ajset@hotmail.com?subject=Contacto&body=Me dirijo a usted porque me interesa su trabajo como desarrollador">Enviar E-mail</a>
         </li>
         <li>
-          <a href="">Anillos</a>
-        </li>
-        <li>
-          <a href="">Aretes</a>
-        </li>
-        <li>
-          <a href="">Cadenas</a>
-        </li>
-        <li>
-          <a href="">Pulceras</a>
-        </li>
-        <li>
-          <a href="">Matrimonio</a>
+          <a href="https://fernandoajset.github.io/Web/" target="_blank">Acerca del desarrollador</a>
         </li>
       </ul>
       <ul>
         <li>
-          <a href="">Mis Ordenes</a>
+          <h3>DONAR</h3>
         </li>
         <li>
-          <a href="">Mi cuenta</a>
+          <a href="https://www.paypal.com/paypalme/EAjset?locale.x=es_XC" target="_blank">Paypal</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <h3>DOCUMENTACION</h3>
         </li>
         <li>
+          <a href="https://github.com/FernandoAjset/AppCalculosFiguras" target="_blank">Código fuente</a>
+        </li>
+        <li class="volver">
           <a href="./index.html" class="volver">Volver</a>
-        </li>
-      </ul>
-
-      <ul>
-        <li>
-          <a href="" class="email">example@mail.com</a>
-        </li>
-        <li>
-          <a href="" class="sing-out">Cerrar sesion</a>
         </li>
       </ul>
     </div>
