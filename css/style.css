@@ -37,12 +37,12 @@ header {
   font-size: 1.4rem;
 }
 
-header h1{
-  color:#FF5400;
+header h1 {
+  color: #ff5400;
 }
 
-header p{
-  color:#FF6D00;
+header p {
+  color: #ff6d00;
 }
 
 .titulo {
@@ -78,26 +78,26 @@ main {
 .triangulo,
 .circulo {
   background-image: linear-gradient(
-    to left bottom,
-    #ff5400,
-    #ff6500,
-    #ff7300,
-    #ff8100,
-    #ff8e00,
-    #ff8e00,
-    #ff8e00,
-    #ff8e00,
-    #ff8100,
-    #ff7300,
-    #ff6500,
-    #ff5400
+    to right bottom,
+    #0077b6,
+    #0083be,
+    #008ec5,
+    #009acb,
+    #00a5d1,
+    #00a5d1,
+    #00a5d1,
+    #00a5d1,
+    #009acb,
+    #008ec5,
+    #0083be,
+    #0077b6
   );
   position: relative;
   width: 80%;
   height: auto;
   padding: 10px 0 10px 0;
   margin-bottom: 20px;
-  border: 2px solid #ff5400;
+  border: 2px solid #0077B6;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -124,7 +124,7 @@ main {
 .triangulo label,
 .circulo label {
   margin-top: 5px;
-  color: #023e8a;
+  color:black;
 }
 
 .cuadrado button,
@@ -135,21 +135,7 @@ main {
 footer {
   width: 100%;
   height: 70px;
-  background-image: linear-gradient(
-    to right bottom,
-    #0077b6,
-    #0083be,
-    #008ec5,
-    #009acb,
-    #00a5d1,
-    #00a5d1,
-    #00a5d1,
-    #00a5d1,
-    #009acb,
-    #008ec5,
-    #0083be,
-    #0077b6
-  );
+  background-image: linear-gradient(to top, #023e8a, #005ca4, #0079b9, #0097ca, #00b4d8);
   bottom: 0;
   box-shadow: 2px 2px 12px rgb(2, 62, 138);
 }
