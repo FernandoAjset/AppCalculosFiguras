@@ -24,6 +24,7 @@ header {
   height: 70px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   box-shadow: 2px 2px 12px rgb(2, 62, 138);
   position: sticky;
   z-index: 20;
@@ -33,6 +34,15 @@ header {
   background-color: #89b0ae;
 }
 
+.menu-desk {
+  display: none;
+}
+.menu {
+  width: 10%;
+}
+.menu img {
+  width: 60%;
+}
 .titulo {
   width: 90%;
   display: flex;
@@ -43,6 +53,7 @@ header {
 .titulo h1,
 .titulo p {
   text-align: center;
+  width: auto;
 }
 
 .menu {
