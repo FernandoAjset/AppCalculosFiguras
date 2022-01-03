@@ -25,6 +25,9 @@
     position: absolute;
     bottom: -40;
   }
+  .social-media{
+    width: 45%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -75,4 +78,5 @@
     position: absolute;
     bottom: 0;
   }
+
 }
